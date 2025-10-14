@@ -1,4 +1,51 @@
 
+/* Menu Layout (Sidebar + Menu) */
+.menu-container {
+  display: flex;
+  margin: 40px 80px;
+  gap: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.sidebar h3 {
+  color: #0f0f0f;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 12px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #d32f2f;
+}
+
+/* Adjust main to fit beside sidebar */
+main {
+  flex: 1;
+
+
 * {
   margin: 0;
   padding: 0;
@@ -74,4 +121,5 @@ nav ul li a:hover {
 
 .order-section button:hover {
   background-color: #fce4e4;
+
 }
