@@ -1,0 +1,44 @@
+/* Reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header (navbar container) */
+header {
+  background-color: #fff;
+  border-bottom: 2px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+/* Logo styling */
+.logo img {
+  height: 60px;
+}
+
+/* Navigation menu styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d90007; /* KFC red */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
