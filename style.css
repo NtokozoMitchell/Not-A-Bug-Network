@@ -44,9 +44,6 @@
 /* Adjust main to fit beside sidebar */
 main {
   flex: 1;
-
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -122,4 +119,13 @@ nav ul li a:hover {
 .order-section button:hover {
   background-color: #fce4e4;
 
+}
+footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.social-links a {
+   color: white; 
+   
 }
