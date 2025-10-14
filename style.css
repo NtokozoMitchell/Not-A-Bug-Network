@@ -1,16 +1,15 @@
-/* Reset default margins/padding */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header (navbar container) */
+
 header {
   background-color: #fff;
   border-bottom: 2px solid #e5e5e5;
@@ -20,12 +19,12 @@ header {
   padding: 15px 40px;
 }
 
-/* Logo styling */
+
 .logo img {
   height: 60px;
 }
 
-/* Navigation menu styling */
+
 nav ul {
   list-style: none;
   display: flex;
@@ -34,11 +33,45 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #d90007; /* KFC red */
+  color: black;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #000;
+  color: red;
+}
+
+
+.order-section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: top 50px;
+  align-items: center;
+}
+
+.order-section span {
+  font-weight: bold;
+}
+
+.order-section button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  float: right;
+}
+
+.order-section button:hover {
+  background-color: #fce4e4;
 }
