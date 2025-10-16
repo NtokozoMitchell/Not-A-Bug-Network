@@ -200,10 +200,10 @@ nav ul li a:hover {
         }
 
         .promo-section h2 {
-    color: #d9251d; /* KFC red */
+    color: blac
     font-size: 1.8em;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 6x;
 }
 
 /* See Promos For You container */
@@ -211,7 +211,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #d9251d; /* KFC red */
+    background-color: #d9251d;
     padding: 12px 20px;
     border-radius: 8px;
     margin-bottom: 20px;
