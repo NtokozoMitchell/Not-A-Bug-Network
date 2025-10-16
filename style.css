@@ -12,7 +12,7 @@ body {
 }
 
 header { 
- display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
@@ -20,7 +20,7 @@ header {
   border-bottom: 2px solid #e5e5e5;
   position: sticky;
   top: 0;
-  z-index: 100;
+ 
 }
 
 .left-nav {
