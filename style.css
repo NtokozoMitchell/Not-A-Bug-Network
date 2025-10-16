@@ -127,10 +127,9 @@ nav ul li a:hover {
     color: white;
     border: none;
     padding: 6px 14px;
-    border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+   border-radius: 25px;
 }
 
 .promo-bar button:hover {
