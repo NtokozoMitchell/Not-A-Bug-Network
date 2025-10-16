@@ -360,7 +360,8 @@ footer {
 }
 
 .footer-logo img {
-  max-width: 90px;
+  width:100px;
+  height:100px;
 }
 
 .footer-links {
