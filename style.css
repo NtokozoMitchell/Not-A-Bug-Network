@@ -12,12 +12,15 @@ body {
 }
 
 header { 
-  display: flex;
-  justify-content: space-between; 
+ display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  background-color: #fff;
+  background: white;
   border-bottom: 2px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .left-nav {
@@ -27,8 +30,7 @@ header {
 }
 
 .left-nav img {
-  width: auto;    
-  height: 80px;   
+   height: 80px;  
 }
 
 .left-nav nav ul {
@@ -103,9 +105,10 @@ nav ul li a:hover {
             background-color: #fff4f2;
             color: #333;
             display: flex;
+            text-align: center;
             justify-content: center;
             align-items: center;
-            padding: 8px 20px;
+            padding: 10px;
             gap: 10px;
             font-size: 14px;
         }
