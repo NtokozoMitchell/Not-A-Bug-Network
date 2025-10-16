@@ -219,7 +219,7 @@ nav ul li a:hover {
         }
 
         .search-section .set-location {
-            background-color: #d9251d;
+            background-color: white;
             color: white;
             border: none;
             padding: 8px 14px;
@@ -228,7 +228,7 @@ nav ul li a:hover {
         }
 
         .search-section .set-location:hover {
-            background-color: #b31b12;
+            background-color: white;
         }
 
         .menu-section {
