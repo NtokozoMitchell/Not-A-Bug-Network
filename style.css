@@ -30,7 +30,8 @@ header {
 }
 
 .left-nav img {
-   height: 80px;  
+   height: 80px; 
+    width:80px;
 }
 
 .left-nav nav ul {
