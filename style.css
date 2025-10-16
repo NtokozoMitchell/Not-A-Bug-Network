@@ -230,8 +230,8 @@ nav ul li a:hover {
             color: #ffe9e7;
         }
 
-        .promo-section h2 {
-    color: blac
+    .promo-section h2 {
+    color: black;
     font-size: 1.8em;
     font-weight: bold;
     margin-bottom: 6x;
@@ -239,13 +239,15 @@ nav ul li a:hover {
 
 /* See Promos For You container */
 .see-promos-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #d9251d;
-    padding: 12px 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: top 50px;
+  align-items: center;
 }
 
 .see-promos-container h2 {
@@ -256,10 +258,10 @@ nav ul li a:hover {
 
 .see-promos-container button {
     background-color: white;
-    color: #d9251d; /* KFC red text */
+    color: #0a0a0a; 
     border: none;
     padding: 8px 18px;
-    border-radius: 25px; /* fully rounded */
+    border-radius: 25px; 
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
